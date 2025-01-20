@@ -22,7 +22,7 @@ def main():
     extractor = DocumentExtractor(endpoint=endpoint, key=key)
     
     # Example document path (replace with your document)
-    document_path = Path("samples/sample_invoice.pdf")
+    document_path = Path("samples/sample-invoice.pdf")
     
     if not document_path.exists():
         console.print(f"[red]Document not found: {document_path}[/red]")
